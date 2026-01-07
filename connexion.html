@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 50%;
+            border: 3px solid;
+            margin-left: 25%;
+            border-radius: 4px;
+        }
+        h4{
+            text-align: center;
+            padding: 20px;
+            background-color: lightgray;
+        }
+
+        #infos{
+            padding: 10px;
+            background-color: rgb(151, 198, 227);
+            color: rgb(84, 117, 106);
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        input{
+            width: 90%;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .btn{
+            margin-left: 80%;
+        }
+
+     button{
+            padding: 4px;
+            color: white ;
+            border-radius: 5px;
+        }
+        .btn button{
+            background-color: rgb(74, 237, 215);
+            border-color: rgb(55, 237, 244);
+        }
+        .mp{
+            background-color: rgb(234, 182, 11);
+            border-color: rgba(236, 242, 245, 0.974);
+        }
+        .verif{
+             background-color: rgb(53, 10, 194);
+            border-color: rgba(245, 247, 248, 0.9);
+        
+        }
+        .am{
+            background-color: rgb(26, 233, 43);
+            border-color: rgb(237, 246, 249);
+            padding: 6px;
+            border-radius: 5px;
+        
+        }
+        form{
+            padding: 30px;
+        }
+        .lien{
+            background-color:white ;
+            padding: 12px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+
+        <h4>Espase étudiants</h4>
+        <div id="infos">
+            veuillez renseigner le nom d'utilisateur et le nom de passe
+        </div>
+        <form>
+            <div>
+                 <input type="text" name="nom" placeholder="Nom d'utilisateur">
+            </div>
+            <div>
+                 <input type="password" name="mp" placeholder="Mot de passe">
+            </div>
+            <div  class="btn">
+                 <button>se connecter</button>
+            </div>
+        </form>
+        <div class="lien" style="background-color: rgb(228, 227, 226);">
+            <button class="mp">Mot de passe oublié?</button>
+            <button class="verif">Vérifier autorisation?</button>
+             <a href="compte.html" class="am"> créer un compte</a>
+        </div> 
+           
+
+    </section>
+</body>
+</html>
